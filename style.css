@@ -29,12 +29,11 @@ img.logoregis{
   }
 
 
-
-.navi:hover, button:hover {
+.navi:hover, button:hover, .logout:hover {
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
-  background-color: #ddd;
+  background-color: #98eaec;
   color: black;
   opacity: 0.8;
 }
@@ -62,7 +61,7 @@ input[type=text], input[type=password], button[type=submit], button[type=Registe
 }
 
 .logout {
-  padding: 1%;
+  padding: 3%;
   margin-top: 0;
 }
 
