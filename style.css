@@ -1,42 +1,110 @@
-body{
-background-color: rgb(234, 245, 255);
-font-family: "Montserrat", sans-serif;
-font-optical-sizing: auto;
-font-weight: 90px;
-font-style: normal;
-color: rgb(0, 0, 0);
-background-image: url("background.jpg");
-
-}
- #name{
-    color: black;
-    float: right;
-    position: relative;
-    right: 10%;
-
- }
-img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: relative;
-    border: 1px solid blac;
-}
-.mainbody{
-    background-color: rgb(0, 136, 255);
-    margin: 10%;
-    padding: 10%;
+body, * {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #a5dbdd;
 }
 
-#aboutme{
-    background-color: rgb(243, 220, 224);
-    color: rgb(0, 0, 0);
-    padding-top: 3%;
-    padding-bottom: 3%;
+form {
+  margin: auto;
+  width: 50%;
+  padding: 30px;
+  display: block;
+}
+
+
+img.logoregis{
+  width: 50%;
+  border-radius: 50%;
+  margin-left: 20%;
+}
+ img.avatar {
+  width: 50%;
+  border-radius: 50%;
+ 
+  }
+  .imgcontainer {
     text-align: center;
-}
-#imgrss{
-    background-color: none;
-    padding: 10px;
+    margin: 10px 1 12px 0;
+    
   
+  }
+
+
+.navi:hover, button:hover, .logout:hover {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #98eaec;
+  color: black;
+  opacity: 0.8;
+}
+
+.previous {
+  background-color: transparent;
+  color: black;
+}
+
+input[type=text], input[type=password], button[type=submit], button[type=Register] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #686666;
+  box-sizing: border-box;
+}
+
+.firstpage, .logout {
+  background-color: #407C87;
+  color: #eef1f6;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+}
+
+.logout {
+  padding: 3%;
+  margin-top: 0;
+}
+
+h6[type=logoutbtn] {
+  float: right;
+}
+
+button[type=submit], button[type=Register] {
+  background-color: #38a3ce;
+  color: white;
+  cursor: pointer;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+
+.container {
+  padding: 16px;
+}
+
+span.psw{
+  float: right;
+
+}
+span.creat{
+ float: left;
+
+}
+
+.account {
+  background-color: lightgreen;
+  float: left;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw, .cancelbtn {
+    display: block;
+    float: none;
+    width: 100%;
+  }
 }
